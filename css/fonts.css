@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../fonts/MyriadPro/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro/MyriadPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ClearSans';
+  src: url("../fonts/ClearSans/ClearSans-Thin.woff2") format("woff2"), url("../fonts/ClearSans/ClearSans-Thin.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ClearSans';
+  src: url("../fonts/ClearSans/ClearSans-Regular.woff2") format("woff2"), url("../fonts/ClearSans/ClearSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ClearSans';
+  src: url("../fonts/ClearSans/ClearSans-Medium.woff2") format("woff2"), url("../fonts/ClearSans/ClearSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
