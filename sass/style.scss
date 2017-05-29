@@ -32,22 +32,13 @@ body{
   font-weight: 100;
   color: $white;
 }
-.phone-wrapper{
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-  display: flex;
-  justify-content: flex-end;
-  @media(max-width: 767px){
-    transform: none;
-    right: 20px;
-  }
-}
+
 .phone-container{
-  position: relative;
-  right: 5px;
+  display: inline-block;
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+  z-index: 99999;
   width: 120px;
   height: 120px;
 }
@@ -220,7 +211,7 @@ body{
     }
     @media(max-width: 415px){
     width: 17.8rem;
-  }
+    }
   }
 }
 
@@ -538,7 +529,7 @@ body{
 // ABOUT
 //=======================================
 .open_info{
-  display: block !important;
+  display: inline-block !important;
 } 
 .about{
   padding: 84px;
@@ -599,6 +590,7 @@ body{
     width: 14.111rem;
     height: 3.056rem;
     font-size: 1.333rem;
+    line-height: 1;
     margin: 0 auto;
     text-transform: uppercase;
     color: $white;
@@ -627,9 +619,9 @@ body{
     text-align: center;
   }
   &__paragraph{
-    //width: 75%;
     margin: 0 auto 30px auto;
     text-align: center;
+    line-height: 2;
   }
   &__cont{
     margin: 0 auto;
@@ -699,7 +691,7 @@ body{
     right: 0;
     background: rgba(17, 52, 98, 0.85);
     &:hover{
-      background: transparent;
+      background: rgba(0, 0, 0, 0.75);
       .services__headline{
         top: 0%;
         transform: none;
