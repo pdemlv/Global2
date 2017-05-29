@@ -836,6 +836,7 @@ body{
     padding: 34px 10px 41px;
     &:hover{
       box-shadow: 0 0 0.722rem rgba(0, 0, 0, 0.46);
+      cursor: pointer;
     }
   }
   &__content{

@@ -844,7 +844,8 @@ body {
   padding: 34px 10px 41px; }
   .news__item:hover {
     -webkit-box-shadow: 0 0 0.722rem rgba(0, 0, 0, 0.46);
-            box-shadow: 0 0 0.722rem rgba(0, 0, 0, 0.46); }
+            box-shadow: 0 0 0.722rem rgba(0, 0, 0, 0.46);
+    cursor: pointer; }
 
 .news__content {
   padding: 0 12px; }
